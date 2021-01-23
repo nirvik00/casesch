@@ -1,16 +1,16 @@
-from flask import Flask
-import jsonify
+from flask import Flask, jsonify
 app = Flask(__name__)
 
 
 @app.route("/")
 def hello():
-    return "Hello, World from nirvik!"
+    return "Hello, World from nirvik saha!"
 
 
-@app.route("/get", methods=["GEt"])
+@app.route("/get", methods=["GET"])
 def getApi():
-    return jsonify({"msg": "Hello get req"})
+    # return jsonify({'message': 'hello'})
+    return jsonify({'x': 'get request'})
 
 
 if __name__ == "__main__":
