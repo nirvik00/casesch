@@ -9,7 +9,6 @@ def hello():
 
 @app.route("/get", methods=["GET"])
 def getApi():
-    # return jsonify({'message': 'hello'})
     return jsonify({'x': 'get request'})
 
 
