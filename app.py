@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 app = Flask(__name__)
 
 
@@ -10,6 +10,11 @@ def hello():
 @app.route("/get", methods=["GET"])
 def get_req():
     return jsonify({"get": "get request"})
+
+
+@app.route("/view", methods=["GET"])
+def runHTML():
+    return render_template("index.html")
 
 
 if __name__ == "__main__":
