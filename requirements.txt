@@ -1,1 +1,4 @@
 Flask>=1.0,<=1.1.2
+Flask-Uploads==0.2.1
+lxml==4.5.1
+
