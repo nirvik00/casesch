@@ -37,7 +37,7 @@ def hello():
     return jsonify({"msg": "Hello, World from schematron project at CASE, RPI"})
 
 
-@ app.route("/about", methods=["GET"])
+@ app.route("/info", methods=["GET"])
 def get_req():
     return jsonify({"project": "schematron, building sync", "person": "Prof. Dennis Shelden", "email": "sheldd@rpi.edu"})
 
