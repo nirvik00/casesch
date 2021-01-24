@@ -39,7 +39,7 @@ def hello():
 
 @ app.route("/about", methods=["GET"])
 def get_req():
-    return jsonify({"person": "Prof. Dennis Shelden", "email": "sheldd@rpi.edu"})
+    return jsonify({"project": "schematron, building sync", "person": "Prof. Dennis Shelden", "email": "sheldd@rpi.edu"})
 
 
 @ app.route("/view", methods=["GET"])
