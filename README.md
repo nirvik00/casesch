@@ -12,7 +12,7 @@ products:
   - azure-app-service
 ---
 
-# Python Flask RestAPI using Azure App Service (Linux)
+# RestAPI using Python/Azure (Linux)
 
 This is a Rest API Flask app that is deployed to Azure App Service on Linux.
 
