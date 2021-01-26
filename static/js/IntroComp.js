@@ -82,7 +82,8 @@ class InfoGenerate extends React.Component {
 					</p>
 					<p>
 						Then add the csv file to be uploaded (sent) to the url live via
-						Azure. for instance you can upload the file "test_gen.csv" from{' '}
+						Azure. for instance you can upload the file
+						"BEQ_Mappings_medium.csv" from{' '}
 						<a href='https://github.com/nirvik00/casesch/tree/master/data'>
 							{' '}
 							here{' '}
