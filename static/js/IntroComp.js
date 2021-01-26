@@ -3,7 +3,6 @@ class InfoLinks extends React.Component {
 		super(props);
 	}
 	render() {
-		console.log('ns', this.props.counter, this.props.show);
 		if (this.props.show === true) {
 			return (
 				<div>
@@ -61,7 +60,6 @@ class InfoGenerate extends React.Component {
 		super(props);
 	}
 	render() {
-		console.log('ns', this.props.counter, this.props.show);
 		if (this.props.show === true) {
 			return (
 				<div>
@@ -108,7 +106,6 @@ class InfoValidate extends React.Component {
 		super(props);
 	}
 	render() {
-		console.log('ns', this.props.counter, this.props.show);
 		if (this.props.show === true) {
 			return (
 				<div>
@@ -155,7 +152,6 @@ class InfoAbout extends React.Component {
 		super(props);
 	}
 	render() {
-		console.log('ns', this.props.counter, this.props.show);
 		if (this.props.show === true) {
 			return (
 				<div>
