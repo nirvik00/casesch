@@ -31,7 +31,7 @@ def file_save_generate_sch():
         with open(csv_file, encoding='utf-8-sig') as f:
             rows = [{k: v for k, v in row.items()}
                     for row in csv.DictReader(f, skipinitialspace=True)]
-        #  os.remove(csv_file)
+        os.remove(csv_file)
         return generate_sch(rows)
     except:
         return jsonify({"error": "server error - Check files"})
