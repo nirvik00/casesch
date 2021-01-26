@@ -13,7 +13,11 @@ class InfoLinks extends React.Component {
 					</p>
 					<p>
 						Details of Building Sync is{' '}
-						<a href=' https://github.com/BuildingSync/TestSuite'>here</a>
+						<a
+							href=' https://github.com/BuildingSync/TestSuite'
+							target='_blank'>
+							here
+						</a>
 					</p>
 					<p>
 						Our source code is &nbsp;
@@ -23,28 +27,41 @@ class InfoLinks extends React.Component {
 					</p>
 					<p>Some useful links w.r.t. SChematron:</p>
 					<p>
-						<a href='https://www.xfront.com/schematron/index.html'> xfront</a>
+						<a
+							href='https://www.xfront.com/schematron/index.html'
+							target='_blank'>
+							{' '}
+							xfront
+						</a>
 					</p>
 					<p>
-						<a href='https://upg-dh.newtfire.org/explainSchematron.html'>
+						<a
+							href='https://upg-dh.newtfire.org/explainSchematron.html'
+							target='_blank'>
 							{' '}
 							newtfire
 						</a>
 					</p>
 					<p>
-						<a href='https://www.xml.com/pub/a/2000/11/22/schematron.html'>
+						<a
+							href='https://www.xml.com/pub/a/2000/11/22/schematron.html'
+							target='_blank'>
 							{' '}
 							xml
 						</a>
 					</p>
 					<p>
-						<a href='https://schematron.com/an-overview-of-schematron/why-is-schematron-different/'>
+						<a
+							href='https://schematron.com/an-overview-of-schematron/why-is-schematron-different/'
+							target='_blank'>
 							{' '}
 							Schematron Summary
 						</a>
 					</p>
 					<p>
-						<a href='https://standards.iso.org/ittf/PubliclyAvailableStandards/c055982_ISO_IEC_19757-3_2016.zip'>
+						<a
+							href='https://standards.iso.org/ittf/PubliclyAvailableStandards/c055982_ISO_IEC_19757-3_2016.zip'
+							target='_blank'>
 							read the ISO{' '}
 						</a>
 					</p>
@@ -82,7 +99,9 @@ class InfoGenerate extends React.Component {
 						Then add the csv file to be uploaded (sent) to the url live via
 						Azure. for instance you can upload the file
 						"BEQ_Mappings_medium.csv" from{' '}
-						<a href='https://github.com/nirvik00/casesch/tree/master/data'>
+						<a
+							href='https://github.com/nirvik00/casesch/tree/master/data'
+							target='_blank'>
 							{' '}
 							here{' '}
 						</a>
@@ -130,7 +149,9 @@ class InfoValidate extends React.Component {
 							against. These files are sent to the server in Azure. For instance
 							you can upload the file "BEQ_Mappings_medium.sch" and
 							"BuildingSync_sample_medium_01.xml " from{' '}
-							<a href='https://github.com/nirvik00/casesch/tree/master/data'>
+							<a
+								href='https://github.com/nirvik00/casesch/tree/master/data'
+								target='_blank'>
 								{' '}
 								here{' '}
 							</a>
