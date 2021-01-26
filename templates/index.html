@@ -3,11 +3,35 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>ns</title>
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='/css/style.css')}}"
+		/>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"
+			charset="utf-8"
+		></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"
+			charset="utf-8"
+		></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"
+			charset="utf-8"
+		></script>
 	</head>
+
 	<body>
-		<h1>Hello azure from CASE, RPI working on SChematron, Building Sync</h1>
-		<br />
-		<h1>please use GET and POST requests as specified</h1>
+		<div class="container">
+			<h1>Schematron API</h1>
+			<div id="intro" class="IntroComp"></div>
+		</div>
+		<script
+			type="text/babel"
+			src="{{url_for('static', filename='/js/IntroComp.js')}}"
+		></script>
 	</body>
 </html>

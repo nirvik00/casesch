@@ -3,7 +3,7 @@ import sys
 import csv
 import io
 import functools
-from flask import Flask, jsonify, render_template, request, make_response
+from flask import Flask, jsonify, render_template, request, make_response, url_for
 from werkzeug.utils import secure_filename
 from tools.validate_sch import validate_schematron, print_failure
 from tools.generate_sch import generate_sch
@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return jsonify({"msg": "Hello, World from schematron project at CASE, RPI"})
+    return render_template("index.html")
 
 
 @ app.route("/info", methods=["GET"])
