@@ -82,7 +82,7 @@ body {
 	text-align: center;
 	margin: 0 0 25px;
 	color: #8a8888;
-	line-height: 15px;
+	line-height: 1.5;
 }
 .IntroComp p.downloading {
 	font-size: 2em;
