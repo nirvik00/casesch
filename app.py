@@ -49,7 +49,7 @@ def validate():
         os.remove(test_val_sch)
         os.remove(test_val_xml)
         os.remove("val.txt")
-        return {"x": failures}
+        return {"out": failures}
     except:
         return {"x": "error", "y": "check file encoding: should be UTF-8", "status": "500"}
 
