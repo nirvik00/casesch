@@ -46,10 +46,12 @@ def validate():
         test_val_sch, test_val_xml = file_storage_sch.filename, file_storage_xml.filename
         failures = validate_schematron(
             test_val_sch, test_val_xml, result_path="val.txt", strict_context=False)
-        map(lambda x: os.remove(x), [test_val_sch, test_val_xml, "val.txt"])
-        return functools.reduce((lambda x, y: str(x)+"\n"+str(y)), failures)
+        os.remove(test_val_sch)
+        os.remove(test_val_xml)
+        os.remove("val.txt")
+        return {"x": failures}
     except:
-        return jsonify({"error": "server error - Check files"})
+        return {"x": "error", "y": "check file encoding: should be UTF-8", "status": "500"}
 
 
 if __name__ == "__main__":

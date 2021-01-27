@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<auc:BuildingSync xmlns:auc="http://buildingsync.net/schemas/bedes-auc/2019">
+  <auc:Facilities>
+    <auc:Facility ID="Facility-70023827412660">
+      <auc:Sites>
+        <auc:Site ID="SiteType-70023827397400">
+          <auc:PremisesIdentifiers>
+            <auc:PremisesIdentifier>
+              <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+              <auc:IdentifierCustomName>Borough</auc:IdentifierCustomName>
+              <auc:IdentifierValue>Brooklyn</auc:IdentifierValue>
+            </auc:PremisesIdentifier>
+            <auc:PremisesIdentifier>
+              <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+              <auc:IdentifierCustomName>Tax Block</auc:IdentifierCustomName>
+              <auc:IdentifierValue>03343</auc:IdentifierValue>
+            </auc:PremisesIdentifier>
+            <auc:PremisesIdentifier>
+              <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+              <auc:IdentifierCustomName>Tax Lot</auc:IdentifierCustomName>
+              <auc:IdentifierValue>0014</auc:IdentifierValue>
+            </auc:PremisesIdentifier>
+          </auc:PremisesIdentifiers>
+          <auc:PremisesName>Rise Boro</auc:PremisesName>
+          <auc:Address>
+            <auc:City>New York</auc:City>
+            <auc:State>NY</auc:State>
+          </auc:Address>
+          <auc:Buildings>
+            <auc:Building ID="BuildingType-70023826271140">
+                <auc:SpatialUnits>
+                    <auc:SpatialUnit>
+                        <auc:SpatialUnitType>Apartment units</auc:SpatialUnitType>
+                        <auc:NumberOfUnits>10</auc:NumberOfUnits>
+                    </auc:SpatialUnit>
+                </auc:SpatialUnits>
+              <auc:BuildingClassification>Residential</auc:BuildingClassification>
+              <auc:PremisesName>Rise Boro</auc:PremisesName>
+              <auc:PremisesNotes>Sample Building</auc:PremisesNotes>
+              <auc:PremisesIdentifiers>
+                <auc:PremisesIdentifier>
+                  <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+                  <auc:IdentifierCustomName>Atlanta Building ID</auc:IdentifierCustomName>
+                  <auc:IdentifierValue></auc:IdentifierValue>
+                </auc:PremisesIdentifier>
+                <auc:PremisesIdentifier>
+                  <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+                  <auc:IdentifierCustomName>BIN</auc:IdentifierCustomName>
+                  <auc:IdentifierValue>0003323</auc:IdentifierValue>
+                </auc:PremisesIdentifier>
+                <auc:PremisesIdentifier>
+                  <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+                  <auc:IdentifierCustomName>EER</auc:IdentifierCustomName>
+                  <auc:IdentifierValue>A</auc:IdentifierValue>
+                </auc:PremisesIdentifier>
+              </auc:PremisesIdentifiers>
+              <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>110 Grove Street</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
+                <auc:City>Brooklyn</auc:City>
+                <auc:State>NY</auc:State>
+                <auc:PostalCode>11221</auc:PostalCode>
+              </auc:Address>
+              <auc:ConditionedFloorsAboveGrade>4</auc:ConditionedFloorsAboveGrade>
+              <auc:ConditionedFloorsBelowGrade>1</auc:ConditionedFloorsBelowGrade>
+              <auc:BuildingAutomationSystem>true</auc:BuildingAutomationSystem>
+              <auc:HistoricalLandmark>false</auc:HistoricalLandmark>
+              <auc:FloorAreas>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Cooled only</auc:FloorAreaType>
+                  <auc:FloorAreaValue>0.0</auc:FloorAreaValue>
+                </auc:FloorArea>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Gross</auc:FloorAreaType>
+                  <auc:FloorAreaValue>97000.0</auc:FloorAreaValue>
+                </auc:FloorArea>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Heated and Cooled</auc:FloorAreaType>
+                  <auc:FloorAreaValue>97000.0</auc:FloorAreaValue>
+                </auc:FloorArea>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Heated only</auc:FloorAreaType>
+                  <auc:FloorAreaValue>0.0</auc:FloorAreaValue>
+                </auc:FloorArea>
+              </auc:FloorAreas>
+              <auc:TotalExteriorAboveGradeWallArea>20544.0</auc:TotalExteriorAboveGradeWallArea>
+              <auc:TotalExteriorBelowGradeWallArea>5136.0</auc:TotalExteriorBelowGradeWallArea>
+              <auc:OverallWindowToWallRatio>0.10000000149011612</auc:OverallWindowToWallRatio>
+              <auc:YearOfConstruction>2020</auc:YearOfConstruction>
+              <auc:YearOfLastEnergyAudit>2019</auc:YearOfLastEnergyAudit>
+              <auc:YearOfLastMajorRemodel>2020</auc:YearOfLastMajorRemodel>
+              <auc:NumberOfFacilitiesOnSite>1</auc:NumberOfFacilitiesOnSite>
+              <auc:Sections>
+                <auc:Section ID="Section-70023825712080">
+                  <auc:SectionType>Whole building</auc:SectionType>
+                  <auc:FootprintShape>Rectangular</auc:FootprintShape>
+                  <auc:Sides>
+                    <auc:Side>
+                      <auc:DoorID IDref="FenestrationSystemType-70023825380740"></auc:DoorID>
+                    </auc:Side>
+                    <auc:Side>
+                      <auc:WallID IDref="WallSystemType-70023817481060"></auc:WallID>
+                    </auc:Side>
+                    <auc:Side>
+                      <auc:WindowID IDref="FenestrationSystemType-70023817257060"></auc:WindowID>
+                    </auc:Side>
+                  </auc:Sides>
+                  <auc:Roofs>
+                    <auc:Roof>
+                      <auc:RoofID IDref="RoofSystemType-70023836224980">
+                        <auc:RoofCondition>Excellent</auc:RoofCondition>
+                      </auc:RoofID>
+                    </auc:Roof>
+                  </auc:Roofs>
+                  <auc:Foundations>
+                    <auc:Foundation>
+                      <auc:FoundationID IDref="FoundationSystemType-70023824945980"></auc:FoundationID>
+                    </auc:Foundation>
+                    <auc:Foundation>
+                      <auc:FoundationID IDref="FoundationSystemType-70023817324060"></auc:FoundationID>
+                    </auc:Foundation>
+                  </auc:Foundations>
+                </auc:Section>
+                <auc:Section ID="Section-70023825621100">
+                  <auc:SectionType>Space function</auc:SectionType>
+                  <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
+                  <auc:OccupancyLevels>
+                    <auc:OccupancyLevel>
+                      <auc:OccupantQuantityType>Peak total occupants</auc:OccupantQuantityType>
+                      <auc:OccupantQuantity>75</auc:OccupantQuantity>
+                    </auc:OccupancyLevel>
+                  </auc:OccupancyLevels>
+                  <auc:TypicalOccupantUsages>
+                    <auc:TypicalOccupantUsage>
+                      <auc:TypicalOccupantUsageValue>168.0</auc:TypicalOccupantUsageValue>
+                      <auc:TypicalOccupantUsageUnits>Hours per week</auc:TypicalOccupantUsageUnits>
+                    </auc:TypicalOccupantUsage>
+                    <auc:TypicalOccupantUsage>
+                      <auc:TypicalOccupantUsageValue>52.0</auc:TypicalOccupantUsageValue>
+                      <auc:TypicalOccupantUsageUnits>Weeks per year</auc:TypicalOccupantUsageUnits>
+                    </auc:TypicalOccupantUsage>
+                  </auc:TypicalOccupantUsages>
+                  <auc:FloorAreas>
+                    <auc:FloorArea>
+                      <auc:FloorAreaType>Gross</auc:FloorAreaType>
+                      <auc:FloorAreaValue>97000.0</auc:FloorAreaValue>
+                    </auc:FloorArea>
+                    <auc:FloorArea>
+                      <auc:FloorAreaType>Conditioned</auc:FloorAreaType>
+                      <auc:FloorAreaValue>92150.0</auc:FloorAreaValue>
+                    </auc:FloorArea>
+                    <auc:FloorArea>
+                      <auc:FloorAreaType>Common</auc:FloorAreaType>
+                      <auc:FloorAreaValue>4850.0</auc:FloorAreaValue>
+                    </auc:FloorArea>
+                    <auc:FloorArea>
+                      <auc:FloorAreaType>Tenant</auc:FloorAreaType>
+                      <auc:FloorAreaValue>92150.0</auc:FloorAreaValue>
+                    </auc:FloorArea>
+                  </auc:FloorAreas>
+                </auc:Section>
+              </auc:Sections>
+            </auc:Building>
+          </auc:Buildings>
+        </auc:Site>
+      </auc:Sites>
+      <auc:Contacts>
+        <auc:Contact ID="ContactType-70023816961980">
+          <auc:ContactRoles>
+            <auc:ContactRole>Energy Auditor</auc:ContactRole>
+            <auc:ContactRole>Operator</auc:ContactRole>
+            <auc:ContactRole>Owner</auc:ContactRole>
+            <auc:ContactRole>Qualified Assessor</auc:ContactRole>
+            <auc:ContactRole>Property Management Company</auc:ContactRole>
+            <auc:ContactRole>Contributor</auc:ContactRole>
+          </auc:ContactRoles>
+          <auc:ContactName>A. Sample Contact 1</auc:ContactName>
+          <auc:ContactCompany>Sample Company</auc:ContactCompany>
+          <auc:Address>
+            <auc:StreetAddressDetail>
+              <auc:Simplified>
+                <auc:StreetAddress>Sample Address</auc:StreetAddress>
+              </auc:Simplified>
+            </auc:StreetAddressDetail>
+            <auc:City>New York</auc:City>
+            <auc:State>NY</auc:State>
+            <auc:PostalCode>11111</auc:PostalCode>
+          </auc:Address>
+          <auc:ContactTelephoneNumbers>
+            <auc:ContactTelephoneNumber>
+              <auc:TelephoneNumber>999-999-9999</auc:TelephoneNumber>
+            </auc:ContactTelephoneNumber>
+          </auc:ContactTelephoneNumbers>
+          <auc:ContactEmailAddresses>
+            <auc:ContactEmailAddress>
+              <auc:EmailAddress>sample@email.com</auc:EmailAddress>
+            </auc:ContactEmailAddress>
+          </auc:ContactEmailAddresses>
+          <auc:UserDefinedFields>
+            <auc:UserDefinedField>
+              <auc:FieldName>City Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Company Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Email Address Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Name Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Telephone Number Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Postal Code Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>State Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Street Address Is Not Applicable</auc:FieldName>
+              <auc:FieldValue>false</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Energy Auditor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For Qualification-70023841444860</auc:FieldName>
+              <auc:FieldValue>Energy Auditor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact ID For Qualification-70023841444860</auc:FieldName>
+              <auc:FieldValue>ContactType-70023816961980</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact Role For Qualification-70023841444860</auc:FieldName>
+              <auc:FieldValue>Energy Auditor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Other Qualification Type For Qualification-70023841444860</auc:FieldName>
+              <auc:FieldValue></auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Operator</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For Qualification-70023841184880</auc:FieldName>
+              <auc:FieldValue>Operator</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact ID For Qualification-70023841184880</auc:FieldName>
+              <auc:FieldValue>ContactType-70023816961980</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact Role For Qualification-70023841184880</auc:FieldName>
+              <auc:FieldValue>Operator</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Other Qualification Type For Qualification-70023841184880</auc:FieldName>
+              <auc:FieldValue></auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Owner</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Qualified Assessor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For Qualification-70023841015660</auc:FieldName>
+              <auc:FieldValue>Qualified Assessor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact ID For Qualification-70023841015660</auc:FieldName>
+              <auc:FieldValue>ContactType-70023816961980</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contributor Contact Role For Qualification-70023841015660</auc:FieldName>
+              <auc:FieldValue>Qualified Assessor</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Other Qualification Type For Qualification-70023841015660</auc:FieldName>
+              <auc:FieldValue></auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Property Management Company</auc:FieldValue>
+            </auc:UserDefinedField>
+            <auc:UserDefinedField>
+              <auc:FieldName>Contact Role For ReportType-70023817131920</auc:FieldName>
+              <auc:FieldValue>Contributor</auc:FieldValue>
+            </auc:UserDefinedField>
+          </auc:UserDefinedFields>
+        </auc:Contact>
+      </auc:Contacts>
+    </auc:Facility>
+  </auc:Facilities>
+</auc:BuildingSync>
