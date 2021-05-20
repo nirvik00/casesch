@@ -182,20 +182,6 @@ class InfoAbout extends React.Component {
 						such schema{' '}
 					</p>
 					<p>
-						Created at{' '}
-						<a href='https://www.case.rpi.edu/' target='_blank'>
-							{' '}
-							CASE, RPI
-						</a>
-						&nbsp; under the guidance of &nbsp;
-						<a
-							href='https://www.case.rpi.edu/people/dennis-shelded'
-							target='_blank'>
-							Prof. Dennis Shelden
-						</a>
-					</p>
-
-					<p>
 						Our source code is &nbsp;
 						<a href='https://github.com/nirvik00/casesch' target='_blank'>
 							here
