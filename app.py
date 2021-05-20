@@ -19,7 +19,7 @@ def hello():
 
 @ app.route("/info", methods=["GET"])
 def get_req():
-    return jsonify({"project": "schematron, building sync", "person": "Prof. Dennis Shelden", "email": "sheldd@rpi.edu"})
+    return jsonify({"project": "schematron, building sync"})
 
 
 @ app.route("/api/generate", methods=["POST"])
