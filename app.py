@@ -53,6 +53,25 @@ def validate():
     except:
         return {"x": "error", "y": "check file encoding: should be UTF-8", "status": "500"}
 
+@ app.route("/api/validate-1", methods=["POST", "GET"])
+def validate1():
+    print("validate-1")
+    if request.method=="POST":
+        file_storage_sch  = request.files['schfile']
+        file_storage_sch.save(file_storage_sch.filename)
+        file_storage_xml = request.files['xmlfile']
+        file_storage_xml.save(file_storage_xml.filename)
+        test_val_sch= file_storage_sch.filename
+        test_val_xml = file_storage_xml.filename
+        failures = validate_schematron(test_val_sch, test_val_xml, "val.txt", strict_context=False)
+        print(failures)
+
+        #os.remove(file_storage_xml.filename)
+        #os.remove(file_storage_sch.filename)
+
+        return ({"out": failures})
+    else:
+        return ({"msg": "send post req"})
 
 if __name__ == "__main__":
     app.run()
